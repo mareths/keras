@@ -3,5 +3,6 @@ FROM tensorflow/tensorflow:latest
 
 LABEL maintainer="Mareths"
 
+# Install Keras
 RUN pip --no-cache-dir install \
         keras
